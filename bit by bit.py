@@ -26,6 +26,7 @@ pattern=81
 
 
 for kk in range(8):
+     b=(pattern&
      t.goto(100 - 40*kk, 40)
      t.write('b' + str(kk))
      draw_sq(100 - 40*kk, 0, 'white')
