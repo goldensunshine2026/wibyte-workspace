@@ -17,9 +17,6 @@ def draw_sq(x, y, clr):
     t.left(90)
   t.end_fill()
   t.penup()
-  turtle setheading(23)
-  t.tracer
-  ts
 
 ts = turtle.Screen()
 ts.tracer(0)
