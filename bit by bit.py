@@ -51,9 +51,9 @@ for cnt in range(1000):
     t.goto(100 - 40*kk, 40)
     t.write('b' + str(kk))
     if b == 1:
-      draw_sq(100- 40*kk, 0, 'red')
+      draw_sq(100- 40*kk, 0, 'blue')
     else:
-      draw_sq(100 - 40*kk, 0, 'white')
+      draw_sq(100 - 40*kk, 0, 'red')
   ts.update()
   time.sleep(0.5)
 turtle.mainloop()
